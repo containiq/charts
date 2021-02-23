@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  containiq:
+  - apiVersion: v1
+    created: "2021-02-23T16:21:35.440636-05:00"
+    description: Monitor and debug your kubernetes cluster
+    digest: 3d78ab4ab60519ef9dfe526ca7fb0c3e565d1689c3db9803b89f8d3de8347d31
+    home: https://containiq.com
+    icon: A URL to an SVG or PNG image to be used as an icon (optional).
+    keywords:
+    - containiq
+    - kubernetes
+    - monitoring
+    - debugging
+    maintainers:
+    - email: matt@containiq.com
+      name: Matthew Lenhard
+    name: containiq
+    sources:
+    - https://github.com/containiq/containiq
+    urls:
+    - https://containiq.github.io/helm/containiq-v0.2.0.tgz
+    version: v0.2.0
+generated: "2021-02-23T16:21:35.436816-05:00"
