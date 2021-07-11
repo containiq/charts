@@ -3,9 +3,9 @@ entries:
   containiq:
   - apiVersion: v1
     appVersion: v0.3.0
-    created: "2021-07-09T17:30:14.323608-04:00"
+    created: "2021-07-11T17:47:16.344831-04:00"
     description: Monitor and debug your kubernetes cluster
-    digest: 0642f35194fcdbc8aae81138129f3ab8fe1b4ee2f09050fca5ba7417d744dea9
+    digest: 5ed480db10edf5f6e3cf017b2da3e2afc65e9c731d816e5572b1b28028e3e737
     home: https://containiq.com
     icon: A URL to an SVG or PNG image to be used as an icon (optional).
     keywords:
@@ -24,7 +24,7 @@ entries:
     version: v0.4.0
   - apiVersion: v1
     appVersion: v0.3.0
-    created: "2021-07-09T17:30:14.32127-04:00"
+    created: "2021-07-11T17:47:16.343638-04:00"
     description: Monitor and debug your kubernetes cluster
     digest: d10b4e429d68116359aee26381246e953a6a417bbc566cbdd88331b653b3da3b
     home: https://containiq.com
@@ -44,7 +44,7 @@ entries:
     - containiq-v0.3.0.tgz
     version: v0.3.0
   - apiVersion: v1
-    created: "2021-07-09T17:30:14.31876-04:00"
+    created: "2021-07-11T17:47:16.342753-04:00"
     description: Monitor and debug your kubernetes cluster
     digest: 3d78ab4ab60519ef9dfe526ca7fb0c3e565d1689c3db9803b89f8d3de8347d31
     home: https://containiq.com
@@ -66,12 +66,12 @@ entries:
   latency-controller:
   - apiVersion: v2
     appVersion: v0.1.0
-    created: "2021-07-09T17:30:14.324314-04:00"
+    created: "2021-07-11T17:47:16.345266-04:00"
     description: A Helm chart for the containiq latency controller
-    digest: 8d0efec140bbda1185dddd94df8ee488c1d0418986f6541f2b86be88c46c3e91
+    digest: 2efac6e1b8961e4ee450b8a42e0b3611b7184d69beed1b8eaec15da0726e5ab6
     name: latency-controller
     type: application
     urls:
-    - charts/latency-controller-0.1.0.tgz
-    version: 0.1.0
-generated: "2021-07-09T17:30:14.314149-04:00"
+    - charts/latency-controller-0.2.0.tgz
+    version: 0.2.0
+generated: "2021-07-11T17:47:16.341642-04:00"
