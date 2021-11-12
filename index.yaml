@@ -3,9 +3,9 @@ entries:
   containiq:
   - apiVersion: v1
     appVersion: v0.4.0
-    created: "2021-11-12T17:50:05.777581-05:00"
+    created: "2021-11-12T18:33:29.974738-05:00"
     description: Monitor and debug your kubernetes cluster
-    digest: 7564efc945991b1f4eb830826cba9b230e4c433039df40afdb84cd63f5a5edfb
+    digest: b0b08a11a0bcc4e89b8bbc63f0dad11ae321de0ea4278cb06458018606772b87
     home: https://containiq.com
     icon: A URL to an SVG or PNG image to be used as an icon (optional).
     keywords:
@@ -24,7 +24,7 @@ entries:
     version: v0.5.0
   - apiVersion: v1
     appVersion: v0.3.0
-    created: "2021-11-12T17:50:05.770648-05:00"
+    created: "2021-11-12T18:33:29.966618-05:00"
     description: Monitor and debug your kubernetes cluster
     digest: a30b7fbd7d817fc296269f79342f22c80444a0e68454b10f7086e4601b8f106a
     home: https://containiq.com
@@ -45,7 +45,7 @@ entries:
     version: v0.4.0
   - apiVersion: v1
     appVersion: v0.3.0
-    created: "2021-11-12T17:50:05.753888-05:00"
+    created: "2021-11-12T18:33:29.957737-05:00"
     description: Monitor and debug your kubernetes cluster
     digest: d10b4e429d68116359aee26381246e953a6a417bbc566cbdd88331b653b3da3b
     home: https://containiq.com
@@ -65,7 +65,7 @@ entries:
     - containiq-v0.3.0.tgz
     version: v0.3.0
   - apiVersion: v1
-    created: "2021-11-12T17:50:05.740558-05:00"
+    created: "2021-11-12T18:33:29.949685-05:00"
     description: Monitor and debug your kubernetes cluster
     digest: 3d78ab4ab60519ef9dfe526ca7fb0c3e565d1689c3db9803b89f8d3de8347d31
     home: https://containiq.com
@@ -87,7 +87,7 @@ entries:
   latency-controller:
   - apiVersion: v2
     appVersion: v0.1.0
-    created: "2021-11-12T17:50:05.786346-05:00"
+    created: "2021-11-12T18:33:29.975576-05:00"
     description: A Helm chart for the containiq latency controller
     digest: 47a27f0016bba1979c0a2a91c7250660a0a0dc89be54fba8d732de765fefd6d7
     name: latency-controller
@@ -95,4 +95,4 @@ entries:
     urls:
     - charts/latency-controller-0.2.0.tgz
     version: 0.2.0
-generated: "2021-11-12T17:50:05.709485-05:00"
+generated: "2021-11-12T18:33:29.946817-05:00"
