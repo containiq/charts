@@ -2,8 +2,38 @@ apiVersion: v1
 entries:
   containiq:
   - apiVersion: v2
+    appVersion: v0.8.0
+    created: "2022-06-14T12:27:49.582387-04:00"
+    dependencies:
+    - condition: latency.enabled
+      name: latency-controller
+      repository: file://latency-controller
+      version: 0.4.0
+    - condition: logs.enabled
+      name: log-controller
+      repository: file://log-controller
+      version: 0.1.0
+    description: Monitor and debug your kubernetes cluster
+    digest: cc77a5e6d3cf7682e52e1006858202c6c1e5a3fac198cdba8d4abfdd4aa245b2
+    home: https://containiq.com
+    icon: A URL to an SVG or PNG image to be used as an icon (optional).
+    keywords:
+    - containiq
+    - kubernetes
+    - monitoring
+    - debugging
+    maintainers:
+    - email: matt@containiq.com
+      name: Matthew Lenhard
+    name: containiq
+    sources:
+    - https://github.com/containiq/containiq
+    urls:
+    - containiq-v1.3.0.tgz
+    version: v1.3.0
+  - apiVersion: v2
     appVersion: v0.7.0
-    created: "2022-04-14T08:12:07.682434-04:00"
+    created: "2022-06-14T12:27:49.580859-04:00"
     dependencies:
     - condition: latency.enabled
       name: latency-controller
@@ -31,10 +61,70 @@ entries:
     urls:
     - containiq-v1.2.0.tgz
     version: v1.2.0
+  - apiVersion: v2
+    appVersion: v0.7.0
+    created: "2022-06-14T12:27:49.579165-04:00"
+    dependencies:
+    - condition: latency.enabled
+      name: latency-controller
+      repository: file://latency-controller
+      version: 0.3.0
+    - condition: logs.enabled
+      name: log-controller
+      repository: file://log-controller
+      version: 0.1.0
+    description: Monitor and debug your kubernetes cluster
+    digest: 686ed7e74cdfe95b271404d98a10986a2b45e5e4ccfb6104f1970fa40b9756f4
+    home: https://containiq.com
+    icon: A URL to an SVG or PNG image to be used as an icon (optional).
+    keywords:
+    - containiq
+    - kubernetes
+    - monitoring
+    - debugging
+    maintainers:
+    - email: matt@containiq.com
+      name: Matthew Lenhard
+    name: containiq
+    sources:
+    - https://github.com/containiq/containiq
+    urls:
+    - containiq-v1.0.0.tgz
+    version: v1.0.0
+  - apiVersion: v2
+    appVersion: v0.6.0
+    created: "2022-06-14T12:27:49.577454-04:00"
+    dependencies:
+    - condition: latency.enabled
+      name: latency-controller
+      repository: file://latency-controller
+      version: 0.3.0
+    - condition: logs.enabled
+      name: log-controller
+      repository: file://log-controller
+      version: 0.1.0
+    description: Monitor and debug your kubernetes cluster
+    digest: f6ad136da970659f256f8302b04f2f62c8cbb3e253a6c19b7315200197b86f53
+    home: https://containiq.com
+    icon: A URL to an SVG or PNG image to be used as an icon (optional).
+    keywords:
+    - containiq
+    - kubernetes
+    - monitoring
+    - debugging
+    maintainers:
+    - email: matt@containiq.com
+      name: Matthew Lenhard
+    name: containiq
+    sources:
+    - https://github.com/containiq/containiq
+    urls:
+    - containiq-v0.9.0.tgz
+    version: v0.9.0
   latency-controller:
   - apiVersion: v2
     appVersion: v0.4.0
-    created: "2022-04-14T08:12:07.68279-04:00"
+    created: "2022-06-14T12:27:49.582752-04:00"
     description: A Helm chart for the containiq latency controller
     digest: eed84f1059aa95fb0889520555d7e15d520c6b1bc5ef7fc2f124c98929b613f2
     name: latency-controller
@@ -45,7 +135,7 @@ entries:
   log-controller:
   - apiVersion: v2
     appVersion: v0.0.8
-    created: "2022-04-14T08:12:07.68317-04:00"
+    created: "2022-06-14T12:27:49.583371-04:00"
     description: A Helm chart for the containiq log controller
     digest: 342387eedc8840a01ae4a84c16c5732431aa5de9c07135c8a9b3b1e96ef88613
     name: log-controller
@@ -53,4 +143,4 @@ entries:
     urls:
     - charts/log-controller-0.1.0.tgz
     version: 0.1.0
-generated: "2022-04-14T08:12:07.681053-04:00"
+generated: "2022-06-14T12:27:49.574269-04:00"
