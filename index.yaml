@@ -3,7 +3,37 @@ entries:
   containiq:
   - apiVersion: v2
     appVersion: v1.1.0
-    created: "2022-10-07T15:47:06.60323-04:00"
+    created: "2022-10-12T12:53:28.198039-04:00"
+    dependencies:
+    - condition: latency.enabled
+      name: latency-controller
+      repository: file://latency-controller
+      version: 1.8.0
+    - condition: logs.enabled
+      name: log-controller
+      repository: file://log-controller
+      version: 0.2.0
+    description: Monitor and debug your kubernetes cluster
+    digest: 1019b1bbca6924f0123f0dc6c599a3e752bf42bbec1373c7a7c11ac6cd751243
+    home: https://containiq.com
+    icon: A URL to an SVG or PNG image to be used as an icon (optional).
+    keywords:
+    - containiq
+    - kubernetes
+    - monitoring
+    - debugging
+    maintainers:
+    - email: matt@containiq.com
+      name: Matthew Lenhard
+    name: containiq
+    sources:
+    - https://github.com/containiq/containiq
+    urls:
+    - containiq-v2.4.0.tgz
+    version: v2.4.0
+  - apiVersion: v2
+    appVersion: v1.1.0
+    created: "2022-10-12T12:53:28.196952-04:00"
     dependencies:
     - condition: latency.enabled
       name: latency-controller
@@ -33,7 +63,7 @@ entries:
     version: v2.3.0
   - apiVersion: v2
     appVersion: v1.1.0
-    created: "2022-10-07T15:47:06.601711-04:00"
+    created: "2022-10-12T12:53:28.195264-04:00"
     dependencies:
     - condition: latency.enabled
       name: latency-controller
@@ -63,7 +93,7 @@ entries:
     version: v2.2.0
   - apiVersion: v2
     appVersion: v1.1.0
-    created: "2022-10-07T15:47:06.600003-04:00"
+    created: "2022-10-12T12:53:28.193292-04:00"
     dependencies:
     - condition: latency.enabled
       name: latency-controller
@@ -93,7 +123,7 @@ entries:
     version: v2.1.0
   - apiVersion: v2
     appVersion: v1.1.0
-    created: "2022-10-07T15:47:06.598657-04:00"
+    created: "2022-10-12T12:53:28.190848-04:00"
     dependencies:
     - condition: latency.enabled
       name: latency-controller
@@ -123,7 +153,7 @@ entries:
     version: v2.0.2
   - apiVersion: v2
     appVersion: v1.1.0
-    created: "2022-10-07T15:47:06.597042-04:00"
+    created: "2022-10-12T12:53:28.188445-04:00"
     dependencies:
     - condition: latency.enabled
       name: latency-controller
@@ -153,7 +183,7 @@ entries:
     version: v2.0.1
   - apiVersion: v2
     appVersion: v1.1.0
-    created: "2022-10-07T15:47:06.595338-04:00"
+    created: "2022-10-12T12:53:28.186578-04:00"
     dependencies:
     - condition: latency.enabled
       name: latency-controller
@@ -183,7 +213,7 @@ entries:
     version: v2.0.0
   - apiVersion: v2
     appVersion: v1.1.0
-    created: "2022-10-07T15:47:06.592532-04:00"
+    created: "2022-10-12T12:53:28.183409-04:00"
     dependencies:
     - condition: latency.enabled
       name: latency-controller
@@ -213,7 +243,7 @@ entries:
     version: v1.9.0
   - apiVersion: v2
     appVersion: v1.0.0
-    created: "2022-10-07T15:47:06.590569-04:00"
+    created: "2022-10-12T12:53:28.18104-04:00"
     dependencies:
     - condition: latency.enabled
       name: latency-controller
@@ -243,7 +273,7 @@ entries:
     version: v1.8.0
   - apiVersion: v2
     appVersion: v1.0.0
-    created: "2022-10-07T15:47:06.588379-04:00"
+    created: "2022-10-12T12:53:28.179234-04:00"
     dependencies:
     - condition: latency.enabled
       name: latency-controller
@@ -273,7 +303,7 @@ entries:
     version: v1.7.0
   - apiVersion: v2
     appVersion: v1.0.0
-    created: "2022-10-07T15:47:06.587156-04:00"
+    created: "2022-10-12T12:53:28.177898-04:00"
     dependencies:
     - condition: latency.enabled
       name: latency-controller
@@ -303,7 +333,7 @@ entries:
     version: v1.6.0
   - apiVersion: v2
     appVersion: v0.8.0
-    created: "2022-10-07T15:47:06.585262-04:00"
+    created: "2022-10-12T12:53:28.175403-04:00"
     dependencies:
     - condition: latency.enabled
       name: latency-controller
@@ -333,7 +363,7 @@ entries:
     version: v1.5.0
   - apiVersion: v2
     appVersion: v0.8.0
-    created: "2022-10-07T15:47:06.58304-04:00"
+    created: "2022-10-12T12:53:28.173153-04:00"
     dependencies:
     - condition: latency.enabled
       name: latency-controller
@@ -363,7 +393,7 @@ entries:
     version: v1.4.0
   - apiVersion: v2
     appVersion: v0.8.0
-    created: "2022-10-07T15:47:06.581544-04:00"
+    created: "2022-10-12T12:53:28.171406-04:00"
     dependencies:
     - condition: latency.enabled
       name: latency-controller
@@ -393,7 +423,7 @@ entries:
     version: v1.3.0
   - apiVersion: v2
     appVersion: v0.7.0
-    created: "2022-10-07T15:47:06.580052-04:00"
+    created: "2022-10-12T12:53:28.169471-04:00"
     dependencies:
     - condition: latency.enabled
       name: latency-controller
@@ -423,7 +453,7 @@ entries:
     version: v1.2.0
   - apiVersion: v2
     appVersion: v0.7.0
-    created: "2022-10-07T15:47:06.577139-04:00"
+    created: "2022-10-12T12:53:28.167833-04:00"
     dependencies:
     - condition: latency.enabled
       name: latency-controller
@@ -453,7 +483,7 @@ entries:
     version: v1.1.0
   - apiVersion: v2
     appVersion: v0.7.0
-    created: "2022-10-07T15:47:06.575773-04:00"
+    created: "2022-10-12T12:53:28.1655-04:00"
     dependencies:
     - condition: latency.enabled
       name: latency-controller
@@ -483,7 +513,7 @@ entries:
     version: v1.0.0
   - apiVersion: v2
     appVersion: v0.6.0
-    created: "2022-10-07T15:47:06.574292-04:00"
+    created: "2022-10-12T12:53:28.163485-04:00"
     dependencies:
     - condition: latency.enabled
       name: latency-controller
@@ -513,34 +543,34 @@ entries:
     version: v0.9.0
   latency-controller:
   - apiVersion: v2
-    appVersion: v1.5.0
-    created: "2022-10-07T15:47:06.6038-04:00"
+    appVersion: v1.5.1
+    created: "2022-10-12T12:53:28.198887-04:00"
     description: A Helm chart for the containiq latency controller
-    digest: 90a55280a6be5ea2a589939f2961164fd6cfe8ee6edda8ffe88795715c47b1bb
+    digest: 4a27df8ed84e6c817023c7b9a1a583dd37c3d637f47dd34bdff5be4dcb8c80a2
     name: latency-controller
     type: application
     urls:
-    - latency-controller-1.7.0.tgz
-    version: 1.7.0
+    - latency-controller-1.8.0.tgz
+    version: 1.8.0
   - apiVersion: v2
-    appVersion: v1.5.0
-    created: "2022-10-07T15:47:06.604447-04:00"
+    appVersion: v1.5.1
+    created: "2022-10-12T12:53:28.199301-04:00"
     description: A Helm chart for the containiq latency controller
-    digest: 7e3c93ab68ad9393cffe843e1d1ca09638ba1f0f98922cc666e225df3c193510
+    digest: ee176922fa8dd4d9c42092aa08b330a7d23b2e8a3529564f903f96c223d83a0d
     name: latency-controller
     type: application
     urls:
-    - charts/latency-controller-1.7.0.tgz
-    version: 1.7.0
+    - charts/latency-controller-1.8.0.tgz
+    version: 1.8.0
   log-controller:
   - apiVersion: v2
     appVersion: v0.0.8
-    created: "2022-10-07T15:47:06.605133-04:00"
+    created: "2022-10-12T12:53:28.199694-04:00"
     description: A Helm chart for the containiq log controller
-    digest: 902597f23d294f49d500cf3d24a0d173d748d4ae7faa8bb6ec7aac8301c60e25
+    digest: c4750d88213f7b3806cf039b10cbe8d8d4c55429f96bb41a6f7caea9de3fb9a3
     name: log-controller
     type: application
     urls:
     - charts/log-controller-0.2.0.tgz
     version: 0.2.0
-generated: "2022-10-07T15:47:06.570967-04:00"
+generated: "2022-10-12T12:53:28.15996-04:00"
